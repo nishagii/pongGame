@@ -1,5 +1,6 @@
-from turtle import Screen
+from turtle import Screen,Turtle
 from paddle import Paddle
+from ball import Ball
 
 screen=Screen()
 
@@ -12,6 +13,7 @@ screen.tracer(0)#turn off animation
 
 right_paddle=Paddle((350,0))
 left_paddle=Paddle((-350,0))
+ball=Ball()
 
 
 screen.listen()
